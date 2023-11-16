@@ -47,6 +47,13 @@ section{
 aside{
   margin: 0.2em;
 }
+ul a{
+  text-decoration: none;
+  color: #8A9C35;
+}
+ul li{
+  margin: 0.5em;
+}
 @media screen and (max-width: 700px) {
   header{
     margin: 0.5em;
@@ -63,6 +70,7 @@ border: goldenrod solid 0.1em;
 }
 aside img{
   width: 275px;
+  height: 300px;
   padding: .2em;
   margin: 0.2em;
   text-align: center;
