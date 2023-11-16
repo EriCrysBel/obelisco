@@ -22,15 +22,12 @@ header h1{
 main{
   margin: 1em;
   border: rgb(32, 218, 94) solid;
-  
+  display: flex;
 }
 ul{
   display: flex;
 }
 
-main{
-  display: flex;
-}
 section{
   margin: 1em;
 }
