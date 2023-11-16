@@ -3,15 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  margin: 1em;
+}
 header{
   display: flex;
   align-items: center;
   justify-content: center;
-  
-  border: goldenrod solid;
+  border: goldenrod solid 0.5em;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 1em;
-
 }
 header h1{
   text-shadow: 0.1em 0.02em   #ff9494;
@@ -21,16 +22,60 @@ header h1{
 
 main{
   margin: 1em;
-  border: rgb(32, 218, 94) solid;
-  display: flex;
+  border: goldenrod solid 0.5em;
+  
 }
 ul{
   display: flex;
 }
 
+main{
+  display: flex;
+}
 section{
   margin: 1em;
 }
+.container h2{
+  color: #8A9C35;
+  font-size: 50px;
+
+ 
+}
+.container h3{
+  color: #B0503A;
+}
 aside{
   margin: 0.2em;
+}
+@media screen and (max-width: 700px) {
+  header{
+    margin: 0.5em;
+  }
+header h1{
+  font-size: 18px;
+}
+header img{
+  width: 150px;
+}
+main{
+display: grid;
+border: goldenrod solid 0.1em;
+}
+aside img{
+  width: 275px;
+  padding: .2em;
+  margin: 0.2em;
+  text-align: center;
+}
+.container h2{
+  font-size: 30px;
+}
+ul{
+    display: grid;
+    grid-template-colums: 1fr 1fr;
+    gap: 12px;
+}
+ul img{
+  width: 150px;
+}
 }
