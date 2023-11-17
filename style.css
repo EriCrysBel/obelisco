@@ -19,24 +19,32 @@ header h1{
   font-weight: bolder;
   color: rgb(0, 0, 0);
 }
-.container h2{
-  color: #8A9C35;
-  font-size: 50px;
- 
-}
-.container h3{
-  color: #B0503A;
-}
 main{
   margin: 1em;
   border: goldenrod solid 0.5em;
   display: flex;
+  gap: 20px;
 }
 section{
   margin: 1em;
 }
 aside{
   margin: 0.2em;
+}
+aside img{
+  width: 500px;
+  height: 550px;
+}
+.recurso{
+  background-color: antiquewhite;
+  padding: 1em;
+}
+.recurso h2{
+  color: #8A9C35;
+  font-size: 45px;
+}
+.recurso h3{
+  color: #B0503A;
 }
 ul{
   display: flex;
